@@ -1,0 +1,57 @@
+.principal {
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px goldenrod;
+    background-color: white;
+    text-align: center;
+    grid-area: main;
+
+    img {
+        border: solid 3px goldenrod;
+        width: 650px;
+    }
+
+    h1 {
+        color: darkgreen;
+        font-family: $titulo;
+        padding: 10px;
+        margin: 10px;
+        font-size: 60px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    p {
+        color: darkgreen;
+        font-family: $parrafo;
+        width: 90%;
+        font-size: 15px;
+        margin: 40px;
+        text-align: justify;
+    }
+
+    .nota {
+        margin: 5px;
+        padding: 5px;
+        border: solid 2px darkgreen;
+
+        h2 {
+            font-size: 40px;
+            margin: 20px;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        p {
+            color: darkgreen;
+            font-family: $parrafo;
+            width: 90%;
+            font-size: 15px;
+            margin: 40px;
+            text-align: justify;
+        }
+    }
+
+
+    grid-area: principal;
+}

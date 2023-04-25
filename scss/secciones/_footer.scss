@@ -1,0 +1,39 @@
+.pie {
+    height: 100px;
+    align-content: center;
+    display: grid;
+    padding-top: 5px;
+    background-image: linear-gradient(to bottom, lightgreen, darkgreen);
+
+    grid-area: pie;
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+
+            list-style: none;
+            border-radius: 5px;
+            color: darkgreen;
+            display: inline-block;
+            text-align: center;
+            width: 45px;
+            height: 45px;
+
+            a {
+                color: black;
+                justify-content: center;
+                text-decoration: none;
+              }
+
+        }
+
+    }
+
+    img {
+        width: 40px;
+    }
+
+    
+}

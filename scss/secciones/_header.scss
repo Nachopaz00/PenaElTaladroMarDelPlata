@@ -62,11 +62,11 @@
                     color: #fff;
                     text-decoration: none;
                 }
+                &:hover {
+                    background-color: orange;
+                }
             }
 
-            li:hover {
-                background-color: orange;
-            }
         }
 
     }

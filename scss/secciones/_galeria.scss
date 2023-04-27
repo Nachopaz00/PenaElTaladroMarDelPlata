@@ -1,0 +1,33 @@
+.principal-galeria {
+    h1 {
+        font-family: $titulo;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 60px;
+        text-decoration: underline;
+
+    }
+
+
+h3 {
+    font-family: $titulo;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+
+.carousel-inner p {
+    color: darkgreen;
+    text-align: center;
+    background-color: white;
+}
+
+.carousel-inner h5 {
+
+    color: white;
+    background-color: darkgreen;
+}
+}

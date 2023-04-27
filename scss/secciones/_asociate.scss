@@ -1,0 +1,43 @@
+.asociate{
+    img,
+    svg {
+        width: 150px;
+    }
+
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 60px;
+        text-decoration: underline;
+    }
+
+
+
+    p {
+        margin: 20px;
+        padding: 20px;
+        margin-left: -10px;
+    }
+
+    .btn {
+        background-color: #ff8c00;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        text-decoration: none;
+        /* para eliminar el subrayado del enlace */
+    }
+
+    .btn:hover {
+        color: orange;
+        background-color: darkgreen;
+    }
+
+}

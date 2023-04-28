@@ -1,33 +1,46 @@
-.principal-galeria {
+.galeria {
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px goldenrod;
+    background-color: white;
+    text-align: center;
+
+    img {
+        border: goldenrod solid 2px;
+        width: 500px;
+        height: 500px;
+    }
+
     h1 {
+        color: darkgreen;
         font-family: $titulo;
-        margin: 10px;
         padding: 10px;
-        text-align: center;
+        margin: 10px;
         font-size: 60px;
         text-decoration: underline;
+        text-align: center;
 
     }
 
 
-h3 {
-    font-family: $titulo;
-    margin: 10px;
-    padding: 10px;
-    text-align: justify;
+    h3 {
+        font-family: $titulo;
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
 
-}
+    }
 
 
-.carousel-inner p {
-    color: darkgreen;
-    text-align: center;
-    background-color: white;
-}
+    .carousel-inner p {
+        color: '$verdebanfield';
+        text-align: center;
+        background-color: orange;
+    }
 
-.carousel-inner h5 {
+    .carousel-inner h5 {
 
-    color: white;
-    background-color: darkgreen;
-}
+        color: white;
+        background-color: darkgreen;
+    }
 }

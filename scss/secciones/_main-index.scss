@@ -1,10 +1,10 @@
-.principal{
+.principal {
     padding: 20px;
     margin: 20px;
     border: solid 5px goldenrod;
     background-color: white;
     text-align: center;
-    
+
 
     img {
         border: solid 3px goldenrod;
@@ -53,6 +53,81 @@
     }
 
 
-    grid-area: principal-index;
-    grid-area: main;
+    grid-area: principal;
+}
+
+@media (max-width: 991px) {
+
+    .principal {
+        border: white solid 2px;
+        border-radius: 2px;
+        background-color: darkgreen;
+
+        img {
+            border: white solid 2px;
+            border-radius: 2px;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .nota {
+            border: white solid 2px;
+            border-radius: 2px;
+
+            h2 {
+                margin: auto;
+                color: orange;
+            }
+
+            p {
+                margin: auto;
+                font-size: 20px;
+                color: white;
+            }
+
+
+            img {
+
+                /* height: 60vh; */
+                width: 80vw;
+
+            }
+
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .principal {
+        .nota p {
+            margin: 4px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .principal {
+        width: 90vw;
+        .nota {
+            p {
+                margin: auto;
+                font-size: 13px;
+            }
+
+            h2 {
+                margin: auto;
+                padding: 5px;
+                font-size: 30px;
+            }
+
+            img{
+                width: 70vw;
+            }
+
+        }
+    }
 }

@@ -1,24 +1,36 @@
 .asociate{
+
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px goldenrod;
+    background-color: white;
+    text-align: center;
+
     img,
     svg {
-        width: 150px;
+        border: goldenrod solid 2px;
+        align-items: center;
+        width: 85vw;
     }
 
     h1 {
-        font-family: 'Oswald', sans-serif;
-        margin: 10px;
+        color: darkgreen;
+        font-family: $titulo;
         padding: 10px;
-        text-align: center;
+        margin: 10px;
         font-size: 60px;
         text-decoration: underline;
+        text-align: center;
     }
 
 
 
     p {
+        font-family: $parrafo;
         margin: 20px;
         padding: 20px;
         margin-left: -10px;
+        text-align: justify;
     }
 
     .btn {

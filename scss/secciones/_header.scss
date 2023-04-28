@@ -43,6 +43,7 @@
     }
 
     nav {
+        background-image: linear-gradient(to bottom, darkgreen, lightgreen) !important;
         overflow: hidden;
 
         ul {
@@ -62,6 +63,7 @@
                     color: #fff;
                     text-decoration: none;
                 }
+
                 &:hover {
                     background-color: orange;
                 }
@@ -71,5 +73,41 @@
 
     }
 
+    #navbarNav {
+        justify-content: flex-end;
+    }
+
+    .navbar-toggler {
+        border: solid 5px white;
+
+        &:hover {
+            border: solid 5px orange;
+
+        }
+    }
+
     grid-area: encabezado;
+}
+
+@media (max-width: 991px) {
+
+    .encabezado {
+        nav {
+            ul {
+                margin: -12px;
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .encabezado {
+        nav {
+            ul {
+                margin: -12px;
+            }
+        }
+    }
 }

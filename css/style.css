@@ -316,8 +316,8 @@
   text-align: center; }
   .galeria img {
     border: goldenrod solid 2px;
-    width: 500px;
-    height: 500px; }
+    max-width: 90vw;
+    max-height: 90vh; }
   .galeria h1 {
     color: darkgreen;
     font-family: "Oswald", sans-serif;

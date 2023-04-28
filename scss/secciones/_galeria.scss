@@ -44,3 +44,15 @@
         background-color: darkgreen;
     }
 }
+
+@media (max-width: 991px) {
+.contenedor-galeria{
+    background-color: darkgreen;
+    .galeria{
+        img{
+            max-height: 60vh;
+        }
+    }
+}
+
+}

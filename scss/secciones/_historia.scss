@@ -1,26 +1,45 @@
-.historia {
-    padding: 20px;
-    margin: 20px;
-    border: solid 5px goldenrod;
+.contenedor-historia {
     background-color: white;
-    text-align: center;
 
-    h1 {
-        color: darkgreen;
-        font-family: $titulo;
-        padding: 10px;
-        margin: 10px;
-        font-size: 60px;
-        text-decoration: underline;
-        text-align: center;
-    }
-
-    p {
-        color: darkgreen;
-        font-family: $parrafo;
-        width: 90%;
-        font-size: 15px;
+    .historia {
+        background-color: white;
+        padding: 20px;
         margin: 20px;
-        text-align: justify;
+        border: solid 5px goldenrod;
+        text-align: center;
+
+        h1 {
+            color: darkgreen;
+            font-family: $titulo;
+            padding: 10px;
+            margin: 10px;
+            font-size: 60px;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        p {
+            color: darkgreen;
+            font-family: $parrafo;
+            width: 90%;
+            font-size: 15px;
+            margin: 20px;
+            text-align: justify;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .contenedor-historia {
+        background-color: darkgreen;
+
+        .historia {
+
+            h1 {
+                color: orange;
+            }
+
+            
+        }
     }
 }

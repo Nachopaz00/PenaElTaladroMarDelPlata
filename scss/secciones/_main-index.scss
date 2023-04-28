@@ -1,8 +1,8 @@
 .principal {
+    background-color: white;
     padding: 20px;
     margin: 20px;
     border: solid 5px goldenrod;
-    background-color: white;
     text-align: center;
 
 
@@ -59,18 +59,17 @@
 @media (max-width: 991px) {
 
     .principal {
-        border: white solid 2px;
+       
         border-radius: 2px;
-        background-color: darkgreen;
+
 
         img {
-            border: white solid 2px;
+            max-width: 65vw;
+        
             border-radius: 2px;
         }
 
-        h1 {
-            color: white;
-        }
+       
 
         .nota {
             border: white solid 2px;
@@ -84,7 +83,6 @@
             p {
                 margin: auto;
                 font-size: 20px;
-                color: white;
             }
 
 
@@ -106,12 +104,16 @@
             margin: 4px;
             font-size: 15px;
         }
+
+        img{
+            max-width: 65vw;
+        }
     }
 }
 
 @media (max-width: 420px) {
     .principal {
-        width: 90vw;
+        max-width: 50vw;
         .nota {
             p {
                 margin: auto;
@@ -125,7 +127,7 @@
             }
 
             img{
-                width: 70vw;
+                width: 50vw;
             }
 
         }

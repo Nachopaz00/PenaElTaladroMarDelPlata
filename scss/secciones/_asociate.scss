@@ -1,55 +1,74 @@
-.asociate{
-
-    padding: 20px;
-    margin: 20px;
-    border: solid 5px goldenrod;
+.contenedor-asociate {
     background-color: white;
-    text-align: center;
 
-    img,
-    svg {
-        border: goldenrod solid 2px;
-        align-items: center;
-        width: 85vw;
-    }
+    .asociate {
 
-    h1 {
-        color: darkgreen;
-        font-family: $titulo;
-        padding: 10px;
-        margin: 10px;
-        font-size: 60px;
-        text-decoration: underline;
-        text-align: center;
-    }
-
-
-
-    p {
-        font-family: $parrafo;
-        margin: 20px;
         padding: 20px;
-        margin-left: -10px;
-        text-align: justify;
-    }
+        margin: 20px;
+        border: solid 5px goldenrod;
+        background-color: white;
+        text-align: center;
 
-    .btn {
-        background-color: #ff8c00;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 4px;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
-        text-decoration: none;
-        /* para eliminar el subrayado del enlace */
-    }
+        img,
+        svg {
+            border: goldenrod solid 2px;
+            align-items: center;
+            width: 85vw;
+        }
 
-    .btn:hover {
-        color: orange;
-        background-color: darkgreen;
-    }
+        h1 {
+            color: darkgreen;
+            font-family: $titulo;
+            padding: 10px;
+            margin: 10px;
+            font-size: 60px;
+            text-decoration: underline;
+            text-align: center;
+        }
 
+
+
+        p {
+            font-family: $parrafo;
+            margin: 20px;
+            padding: 20px;
+            margin-left: -10px;
+            text-align: justify;
+        }
+
+        .btn {
+            background-color: #ff8c00;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            text-decoration: none;
+            /* para eliminar el subrayado del enlace */
+        }
+
+        .btn:hover {
+            color: orange;
+            background-color: darkgreen;
+        }
+
+    }
+}
+
+@media (max-width: 991px) {
+    .contenedor-asociate {
+
+background-color: darkgreen;
+        .asociate {
+
+            img{
+                max-width: 78vw;
+            }
+
+            
+        }
+    }
 }

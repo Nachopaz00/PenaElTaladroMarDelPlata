@@ -43,7 +43,7 @@
     }
 
     nav {
-        background-image: linear-gradient(to bottom, darkgreen, lightgreen) !important;
+        background-image: linear-gradient(to bottom, darkgreen, white) !important;
         overflow: hidden;
 
         ul {
@@ -93,7 +93,10 @@
 
     .encabezado {
         nav {
+                background-image: linear-gradient(to bottom, white, darkgreen) !important;
+                overflow: hidden;
             ul {
+                display: flow-root;
                 margin: -12px;
                 
             }
@@ -106,6 +109,7 @@
     .encabezado {
         nav {
             ul {
+                display: flow-root;
                 margin: -12px;
             }
         }

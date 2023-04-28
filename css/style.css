@@ -59,7 +59,7 @@
     border-color: red;
     margin-left: 7px; }
   .encabezado nav {
-    background-image: linear-gradient(to bottom, darkgreen, lightgreen) !important;
+    background-image: linear-gradient(to bottom, darkgreen, white) !important;
     overflow: hidden; }
     .encabezado nav ul {
       margin: 15px;
@@ -85,11 +85,16 @@
       border: solid 5px orange; }
 
 @media (max-width: 991px) {
-  .encabezado nav ul {
-    margin: -12px; } }
+  .encabezado nav {
+    background-image: linear-gradient(to bottom, white, darkgreen) !important;
+    overflow: hidden; }
+    .encabezado nav ul {
+      display: flow-root;
+      margin: -12px; } }
 
 @media (max-width: 768px) {
   .encabezado nav ul {
+    display: flow-root;
     margin: -12px; } }
 
 .ladoa {
@@ -168,7 +173,7 @@
   align-content: center;
   display: grid;
   padding-top: 5px;
-  background-image: linear-gradient(to bottom, lightgreen, darkgreen);
+  background-image: linear-gradient(to bottom, white, darkgreen);
   grid-area: pie; }
   .pie ul {
     display: flex;
@@ -188,11 +193,15 @@
   .pie img {
     width: 40px; }
 
+@media (max-width: 991px) {
+  .pie {
+    background-image: linear-gradient(to bottom, darkgreen, white); } }
+
 .principal {
+  background-color: white;
   padding: 20px;
   margin: 20px;
   border: solid 5px goldenrod;
-  background-color: white;
   text-align: center;
   grid-area: principal; }
   .principal img {
@@ -232,14 +241,10 @@
 
 @media (max-width: 991px) {
   .principal {
-    border: white solid 2px;
-    border-radius: 2px;
-    background-color: darkgreen; }
+    border-radius: 2px; }
     .principal img {
-      border: white solid 2px;
+      max-width: 65vw;
       border-radius: 2px; }
-    .principal h1 {
-      color: white; }
     .principal .nota {
       border: white solid 2px;
       border-radius: 2px; }
@@ -248,8 +253,7 @@
         color: orange; }
       .principal .nota p {
         margin: auto;
-        font-size: 20px;
-        color: white; }
+        font-size: 20px; }
       .principal .nota img {
         /* height: 60vh; */
         width: 80vw; } }
@@ -257,11 +261,13 @@
 @media (max-width: 768px) {
   .principal .nota p {
     margin: 4px;
-    font-size: 15px; } }
+    font-size: 15px; }
+  .principal img {
+    max-width: 65vw; } }
 
 @media (max-width: 420px) {
   .principal {
-    width: 90vw; }
+    max-width: 50vw; }
     .principal .nota p {
       margin: auto;
       font-size: 13px; }
@@ -270,7 +276,37 @@
       padding: 5px;
       font-size: 30px; }
     .principal .nota img {
-      width: 70vw; } }
+      width: 50vw; } }
+
+.contenedor-historia {
+  background-color: white; }
+  .contenedor-historia .historia {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px goldenrod;
+    text-align: center; }
+    .contenedor-historia .historia h1 {
+      color: darkgreen;
+      font-family: "Oswald", sans-serif;
+      padding: 10px;
+      margin: 10px;
+      font-size: 60px;
+      text-decoration: underline;
+      text-align: center; }
+    .contenedor-historia .historia p {
+      color: darkgreen;
+      font-family: "Roboto Condensed", sans-serif;
+      width: 90%;
+      font-size: 15px;
+      margin: 20px;
+      text-align: justify; }
+
+@media (max-width: 991px) {
+  .contenedor-historia {
+    background-color: darkgreen; }
+    .contenedor-historia .historia h1 {
+      color: orange; } }
 
 .galeria {
   padding: 20px;
@@ -303,53 +339,67 @@
     color: white;
     background-color: darkgreen; }
 
-.asociate {
-  padding: 20px;
-  margin: 20px;
-  border: solid 5px goldenrod;
-  background-color: white;
-  text-align: center; }
-  .asociate img,
-  .asociate svg {
-    border: goldenrod solid 2px;
-    align-items: center;
-    width: 85vw; }
-  .asociate h1 {
-    color: darkgreen;
-    font-family: "Oswald", sans-serif;
-    padding: 10px;
-    margin: 10px;
-    font-size: 60px;
-    text-decoration: underline;
-    text-align: center; }
-  .asociate p {
-    font-family: "Roboto Condensed", sans-serif;
-    margin: 20px;
-    padding: 20px;
-    margin-left: -10px;
-    text-align: justify; }
-  .asociate .btn {
-    background-color: #ff8c00;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 4px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    text-decoration: none;
-    /* para eliminar el subrayado del enlace */ }
-  .asociate .btn:hover {
-    color: orange;
+@media (max-width: 991px) {
+  .contenedor-galeria {
     background-color: darkgreen; }
+    .contenedor-galeria .galeria img {
+      max-height: 60vh; } }
 
-.contacto {
+.contenedor-asociate {
+  background-color: white; }
+  .contenedor-asociate .asociate {
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px goldenrod;
+    background-color: white;
+    text-align: center; }
+    .contenedor-asociate .asociate img,
+    .contenedor-asociate .asociate svg {
+      border: goldenrod solid 2px;
+      align-items: center;
+      width: 85vw; }
+    .contenedor-asociate .asociate h1 {
+      color: darkgreen;
+      font-family: "Oswald", sans-serif;
+      padding: 10px;
+      margin: 10px;
+      font-size: 60px;
+      text-decoration: underline;
+      text-align: center; }
+    .contenedor-asociate .asociate p {
+      font-family: "Roboto Condensed", sans-serif;
+      margin: 20px;
+      padding: 20px;
+      margin-left: -10px;
+      text-align: justify; }
+    .contenedor-asociate .asociate .btn {
+      background-color: #ff8c00;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 4px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      text-decoration: none;
+      /* para eliminar el subrayado del enlace */ }
+    .contenedor-asociate .asociate .btn:hover {
+      color: orange;
+      background-color: darkgreen; }
+
+@media (max-width: 991px) {
+  .contenedor-asociate {
+    background-color: darkgreen; }
+    .contenedor-asociate .asociate img {
+      max-width: 78vw; } }
+
+.contenedor-contacto .contacto {
   padding: 20px;
   margin: 20px;
   border: solid 5px goldenrod;
   background-color: white; }
-  .contacto h1 {
+  .contenedor-contacto .contacto h1 {
     color: darkgreen;
     font-family: "Oswald", sans-serif;
     padding: 10px;
@@ -357,22 +407,22 @@
     font-size: 60px;
     text-decoration: underline;
     text-align: center; }
-  .contacto input {
+  .contenedor-contacto .contacto input {
     padding: 10px;
     margin: 10px;
     display: block;
     align-items: flex-start; }
-  .contacto form {
+  .contenedor-contacto .contacto form {
     font-family: "Anton", sans-serif;
     display: block;
     padding: 0px;
     margin: 25px; }
-  .contacto p {
+  .contenedor-contacto .contacto p {
     font-family: "Roboto Condensed", sans-serif;
     padding: 0;
     margin: 0;
     margin-left: 42px; }
-  .contacto .enviar {
+  .contenedor-contacto .contacto .enviar {
     border-radius: 5px;
     background-color: #4CAF50;
     /* verde */
@@ -385,27 +435,13 @@
     font-size: 16px;
     margin: 4px 10px;
     cursor: pointer; }
-    .contacto .enviar:hover {
+    .contenedor-contacto .contacto .enviar:hover {
       background-color: #FFA500; }
 
-.historia {
-  padding: 20px;
-  margin: 20px;
-  border: solid 5px goldenrod;
-  background-color: white;
-  text-align: center; }
-  .historia h1 {
-    color: darkgreen;
-    font-family: "Oswald", sans-serif;
-    padding: 10px;
-    margin: 10px;
-    font-size: 60px;
-    text-decoration: underline;
-    text-align: center; }
-  .historia p {
-    color: darkgreen;
-    font-family: "Roboto Condensed", sans-serif;
-    width: 90%;
-    font-size: 15px;
-    margin: 20px;
-    text-align: justify; }
+@media (max-width: 991px) {
+  .contenedor-contacto {
+    background-color: darkgreen; }
+    .contenedor-contacto .contacto .formulario {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }

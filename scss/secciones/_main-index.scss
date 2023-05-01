@@ -1,18 +1,18 @@
 .principal {
-    background-color: white;
+    background-color: $bbanfield;
     padding: 20px;
     margin: 20px;
-    border: solid 5px goldenrod;
+    border: solid 5px $dorado;
     text-align: center;
 
 
     img {
-        border: solid 3px goldenrod;
+        border: solid 3px $dorado;
         width: 650px;
     }
 
     h1 {
-        color: darkgreen;
+        color: $verdebanfield;
         font-family: $titulo;
         padding: 10px;
         margin: 10px;
@@ -22,7 +22,7 @@
     }
 
     p {
-        color: darkgreen;
+        color: $verdebanfield;
         font-family: $parrafo;
         width: 90%;
         font-size: 15px;
@@ -33,7 +33,7 @@
     .nota {
         margin: 5px;
         padding: 5px;
-        border: solid 2px darkgreen;
+        border: solid 2px $verdebanfield;
 
         h2 {
             font-size: 40px;
@@ -43,7 +43,7 @@
         }
 
         p {
-            color: darkgreen;
+            color: $verdebanfield;
             font-family: $parrafo;
             width: 90%;
             font-size: 15px;
@@ -72,12 +72,12 @@
        
 
         .nota {
-            border: white solid 2px;
+            border: $bbanfield solid 2px;
             border-radius: 2px;
 
             h2 {
                 margin: auto;
-                color: orange;
+                color: $naranju;
             }
 
             p {

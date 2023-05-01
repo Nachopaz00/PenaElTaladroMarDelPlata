@@ -1,15 +1,15 @@
 .contenedor-historia {
-    background-color: white;
+    background-color: $bbanfield;
 
     .historia {
-        background-color: white;
+        background-color: $bbanfield;
         padding: 20px;
         margin: 20px;
-        border: solid 5px goldenrod;
+        border: solid 5px $dorado;
         text-align: center;
 
         h1 {
-            color: darkgreen;
+            color: $verdebanfield;
             font-family: $titulo;
             padding: 10px;
             margin: 10px;
@@ -19,7 +19,7 @@
         }
 
         p {
-            color: darkgreen;
+            color: $verdebanfield;
             font-family: $parrafo;
             width: 90%;
             font-size: 15px;
@@ -31,12 +31,12 @@
 
 @media (max-width: 991px) {
     .contenedor-historia {
-        background-color: darkgreen;
+        background-color: $verdebanfield;
 
         .historia {
 
             h1 {
-                color: orange;
+                color: $naranju;
             }
 
             

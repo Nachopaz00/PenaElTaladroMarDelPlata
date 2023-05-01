@@ -20,7 +20,7 @@
   .contenedor {
     display: grid;
     width: 98vw;
-    background-color: darkgreen;
+    background-color: #006400;
     grid-template-columns: 0.6fr 1.4fr;
     grid-template-rows: -0.6fr 2.7fr 2.7fr 0.5fr;
     gap: 0px 0px;
@@ -33,33 +33,33 @@
 
 .encabezado {
   grid-area: encabezado; }
-  .encabezado .navbar > .container {
-    background-image: linear-gradient(to bottom, darkgreen, lightgreen); }
   .encabezado .navbar ul li {
     width: 150px;
     padding: 10px;
     margin: 20px;
     border-radius: 5px;
-    color: darkgreen;
+    color: #006400;
     display: inline-block;
     background-color: white;
     text-align: center;
-    border: solid darkorange; }
+    border: solid #E3AA30; }
+    .encabezado .navbar ul li:hover {
+      padding: 5px;
+      border: solid #FEFEFE; }
     .encabezado .navbar ul li a {
       display: flex;
       text-align: center;
       padding: 0px;
-      color: darkgreen;
+      color: #006400;
       font-family: "Anton", sans-serif;
       text-decoration: none;
       justify-content: center; }
   .encabezado .navbar-brand img {
     width: 150px;
     border-radius: 5px;
-    border-color: red;
     margin-left: 7px; }
   .encabezado nav {
-    background-image: linear-gradient(to bottom, darkgreen, white) !important;
+    background-image: linear-gradient(to bottom, #006400, #FEFEFE) !important;
     overflow: hidden; }
     .encabezado nav ul {
       margin: 15px;
@@ -68,25 +68,24 @@
       position: relative; }
       .encabezado nav ul li {
         transition: background-color 0.5s ease;
-        float: left;
-        background-color: #555; }
+        float: left; }
         .encabezado nav ul li a {
           display: block;
           padding: 1px;
-          color: #fff;
+          color: #FEFEFE;
           text-decoration: none; }
         .encabezado nav ul li:hover {
-          background-color: orange; }
+          background-color: #E3AA30; }
   .encabezado #navbarNav {
     justify-content: flex-end; }
   .encabezado .navbar-toggler {
-    border: solid 5px white; }
+    border: solid 5px #FEFEFE; }
     .encabezado .navbar-toggler:hover {
-      border: solid 5px orange; }
+      border: solid 5px #E3AA30; }
 
 @media (max-width: 991px) {
   .encabezado nav {
-    background-image: linear-gradient(to bottom, white, darkgreen) !important;
+    background-image: linear-gradient(to bottom, #FEFEFE, #006400) !important;
     overflow: hidden; }
     .encabezado nav ul {
       display: flow-root;
@@ -100,8 +99,8 @@
 .ladoa {
   padding: 20px;
   margin: 20px;
-  border: solid 5px goldenrod;
-  background-color: white;
+  border: solid 5px #FFC300;
+  background-color: #FEFEFE;
   grid-area: ladoa; }
   .ladoa img {
     width: 35px; }
@@ -110,11 +109,11 @@
     padding: 5px; }
     .ladoa .resultado h2 {
       font-family: "Lato", sans-serif;
-      color: orange;
+      color: #E3AA30;
       margin: 5px;
       text-align: center; }
     .ladoa .resultado table {
-      background-color: #7AB318;
+      background-color: #478026;
       text-align: center;
       border-collapse: collapse;
       width: 100%; }
@@ -124,38 +123,38 @@
       padding: 1px;
       border: 1px solid black; }
     .ladoa .resultado tr:nth-child(odd):hover {
-      background-color: #A0C55E; }
+      background-color: #639e41; }
   .ladoa .posiciones {
     margin: 5px;
     padding: 5px; }
     .ladoa .posiciones .destacado {
       font-family: Arial;
       font-weight: bold;
-      background-color: #0D6859; }
+      background-color: #006400; }
     .ladoa .posiciones table {
       width: 100px;
       margin: 0 auto;
-      color: darkgreen;
+      color: #FEFEFE;
       text-align: center; }
       .ladoa .posiciones table tr:nth-child(odd) {
         border: 1px solid black;
-        background-color: #A0C55E; }
+        background-color: #478026; }
       .ladoa .posiciones table tr:nth-child(odd):hover {
         color: black;
-        background-color: #00aa00; }
+        background-color: #FEFEFE; }
       .ladoa .posiciones table tr:nth-child(even) {
         border: 1px solid black;
-        background-color: #7AB318; }
+        background-color: #639e41; }
       .ladoa .posiciones table tr:nth-child(even):hover {
         color: black;
-        background-color: #007700; }
+        background-color: #FEFEFE; }
     .ladoa .posiciones h2,
     .ladoa .posiciones p {
       font-family: 'Lato', sans-serif;
       width: 400px;
       margin: 20px auto;
       text-align: center;
-      color: orange; }
+      color: #E3AA30; }
     .ladoa .posiciones .posiciones tr {
       cursor: pointer; }
   .ladoa .media {
@@ -173,7 +172,7 @@
   align-content: center;
   display: grid;
   padding-top: 5px;
-  background-image: linear-gradient(to bottom, white, darkgreen);
+  background-image: linear-gradient(to bottom, #FEFEFE, #006400);
   grid-area: pie; }
   .pie ul {
     display: flex;
@@ -181,13 +180,12 @@
     .pie ul li {
       list-style: none;
       border-radius: 5px;
-      color: darkgreen;
+      color: #006400;
       display: inline-block;
       text-align: center;
       width: 45px;
       height: 45px; }
       .pie ul li a {
-        color: black;
         justify-content: center;
         text-decoration: none; }
   .pie img {
@@ -195,20 +193,20 @@
 
 @media (max-width: 991px) {
   .pie {
-    background-image: linear-gradient(to bottom, darkgreen, white); } }
+    background-image: linear-gradient(to bottom, #006400, #FEFEFE); } }
 
 .principal {
-  background-color: white;
+  background-color: #FEFEFE;
   padding: 20px;
   margin: 20px;
-  border: solid 5px goldenrod;
+  border: solid 5px #FFC300;
   text-align: center;
   grid-area: principal; }
   .principal img {
-    border: solid 3px goldenrod;
+    border: solid 3px #FFC300;
     width: 650px; }
   .principal h1 {
-    color: darkgreen;
+    color: #006400;
     font-family: "Oswald", sans-serif;
     padding: 10px;
     margin: 10px;
@@ -216,7 +214,7 @@
     text-decoration: underline;
     text-align: center; }
   .principal p {
-    color: darkgreen;
+    color: #006400;
     font-family: "Roboto Condensed", sans-serif;
     width: 90%;
     font-size: 15px;
@@ -225,14 +223,14 @@
   .principal .nota {
     margin: 5px;
     padding: 5px;
-    border: solid 2px darkgreen; }
+    border: solid 2px #006400; }
     .principal .nota h2 {
       font-size: 40px;
       margin: 20px;
       text-decoration: underline;
       text-align: center; }
     .principal .nota p {
-      color: darkgreen;
+      color: #006400;
       font-family: "Roboto Condensed", sans-serif;
       width: 90%;
       font-size: 15px;
@@ -246,11 +244,11 @@
       max-width: 65vw;
       border-radius: 2px; }
     .principal .nota {
-      border: white solid 2px;
+      border: #FEFEFE solid 2px;
       border-radius: 2px; }
       .principal .nota h2 {
         margin: auto;
-        color: orange; }
+        color: #E3AA30; }
       .principal .nota p {
         margin: auto;
         font-size: 20px; }
@@ -279,15 +277,15 @@
       width: 50vw; } }
 
 .contenedor-historia {
-  background-color: white; }
+  background-color: #FEFEFE; }
   .contenedor-historia .historia {
-    background-color: white;
+    background-color: #FEFEFE;
     padding: 20px;
     margin: 20px;
-    border: solid 5px goldenrod;
+    border: solid 5px #FFC300;
     text-align: center; }
     .contenedor-historia .historia h1 {
-      color: darkgreen;
+      color: #006400;
       font-family: "Oswald", sans-serif;
       padding: 10px;
       margin: 10px;
@@ -295,7 +293,7 @@
       text-decoration: underline;
       text-align: center; }
     .contenedor-historia .historia p {
-      color: darkgreen;
+      color: #006400;
       font-family: "Roboto Condensed", sans-serif;
       width: 90%;
       font-size: 15px;
@@ -304,22 +302,22 @@
 
 @media (max-width: 991px) {
   .contenedor-historia {
-    background-color: darkgreen; }
+    background-color: #006400; }
     .contenedor-historia .historia h1 {
-      color: orange; } }
+      color: #E3AA30; } }
 
 .galeria {
   padding: 20px;
   margin: 20px;
-  border: solid 5px goldenrod;
-  background-color: white;
+  border: solid 5px #FFC300;
+  background-color: #FEFEFE;
   text-align: center; }
   .galeria img {
-    border: goldenrod solid 2px;
+    border: #FFC300 solid 2px;
     max-width: 90vw;
     max-height: 90vh; }
   .galeria h1 {
-    color: darkgreen;
+    color: #006400;
     font-family: "Oswald", sans-serif;
     padding: 10px;
     margin: 10px;
@@ -334,32 +332,32 @@
   .galeria .carousel-inner p {
     color: '$verdebanfield';
     text-align: center;
-    background-color: orange; }
+    background-color: #E3AA30; }
   .galeria .carousel-inner h5 {
-    color: white;
-    background-color: darkgreen; }
+    color: #FEFEFE;
+    background-color: #006400; }
 
 @media (max-width: 991px) {
   .contenedor-galeria {
-    background-color: darkgreen; }
+    background-color: #006400; }
     .contenedor-galeria .galeria img {
       max-height: 60vh; } }
 
 .contenedor-asociate {
-  background-color: white; }
+  background-color: bbanfield; }
   .contenedor-asociate .asociate {
     padding: 20px;
     margin: 20px;
-    border: solid 5px goldenrod;
-    background-color: white;
+    border: solid 5px #FFC300;
+    background-color: #FEFEFE;
     text-align: center; }
     .contenedor-asociate .asociate img,
     .contenedor-asociate .asociate svg {
-      border: goldenrod solid 2px;
+      border: #FFC300 solid 2px;
       align-items: center;
       width: 85vw; }
     .contenedor-asociate .asociate h1 {
-      color: darkgreen;
+      color: #006400;
       font-family: "Oswald", sans-serif;
       padding: 10px;
       margin: 10px;
@@ -373,8 +371,8 @@
       margin-left: -10px;
       text-align: justify; }
     .contenedor-asociate .asociate .btn {
-      background-color: #ff8c00;
-      color: #fff;
+      background-color: #E3AA30;
+      color: #FEFEFE;
       border: none;
       padding: 10px 20px;
       font-size: 16px;
@@ -385,22 +383,22 @@
       text-decoration: none;
       /* para eliminar el subrayado del enlace */ }
     .contenedor-asociate .asociate .btn:hover {
-      color: orange;
-      background-color: darkgreen; }
+      color: #E3AA30;
+      background-color: #006400; }
 
 @media (max-width: 991px) {
   .contenedor-asociate {
-    background-color: darkgreen; }
+    background-color: #006400; }
     .contenedor-asociate .asociate img {
       max-width: 78vw; } }
 
 .contenedor-contacto .contacto {
   padding: 20px;
   margin: 20px;
-  border: solid 5px goldenrod;
-  background-color: white; }
+  border: solid 5px #FFC300;
+  background-color: #FEFEFE; }
   .contenedor-contacto .contacto h1 {
-    color: darkgreen;
+    color: #006400;
     font-family: "Oswald", sans-serif;
     padding: 10px;
     margin: 10px;
@@ -424,10 +422,10 @@
     margin-left: 42px; }
   .contenedor-contacto .contacto .enviar {
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #52d65d;
     /* verde */
     border: none;
-    color: white;
+    color: #FEFEFE;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
@@ -436,11 +434,11 @@
     margin: 4px 10px;
     cursor: pointer; }
     .contenedor-contacto .contacto .enviar:hover {
-      background-color: #FFA500; }
+      background-color: #FFC300; }
 
 @media (max-width: 991px) {
   .contenedor-contacto {
-    background-color: darkgreen; }
+    background-color: #006400; }
     .contenedor-contacto .contacto .formulario {
       display: flex;
       flex-direction: column;

@@ -1,23 +1,23 @@
 .contenedor-asociate {
-    background-color: white;
+    background-color: bbanfield;
 
     .asociate {
 
         padding: 20px;
         margin: 20px;
-        border: solid 5px goldenrod;
-        background-color: white;
+        border: solid 5px $dorado;
+        background-color: $bbanfield;
         text-align: center;
 
         img,
         svg {
-            border: goldenrod solid 2px;
+            border: $dorado solid 2px;
             align-items: center;
             width: 85vw;
         }
 
         h1 {
-            color: darkgreen;
+            color: $verdebanfield;
             font-family: $titulo;
             padding: 10px;
             margin: 10px;
@@ -37,8 +37,8 @@
         }
 
         .btn {
-            background-color: #ff8c00;
-            color: #fff;
+            background-color: $naranju;
+            color: $bbanfield;
             border: none;
             padding: 10px 20px;
             font-size: 16px;
@@ -51,8 +51,8 @@
         }
 
         .btn:hover {
-            color: orange;
-            background-color: darkgreen;
+            color: $naranju;
+            background-color: $verdebanfield;
         }
 
     }
@@ -61,7 +61,7 @@
 @media (max-width: 991px) {
     .contenedor-asociate {
 
-background-color: darkgreen;
+background-color: $verdebanfield;
         .asociate {
 
             img{

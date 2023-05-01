@@ -1,18 +1,18 @@
 .galeria {
     padding: 20px;
     margin: 20px;
-    border: solid 5px goldenrod;
-    background-color: white;
+    border: solid 5px $dorado;
+    background-color: $bbanfield;
     text-align: center;
 
     img {
-        border: goldenrod solid 2px;
+        border: $dorado solid 2px;
          max-width: 90vw;
          max-height: 90vh;
     }
 
     h1 {
-        color: darkgreen;
+        color: $verdebanfield;
         font-family: $titulo;
         padding: 10px;
         margin: 10px;
@@ -35,19 +35,19 @@
     .carousel-inner p {
         color: '$verdebanfield';
         text-align: center;
-        background-color: orange;
+        background-color: $naranju;
     }
 
     .carousel-inner h5 {
 
-        color: white;
-        background-color: darkgreen;
+        color: $bbanfield;
+        background-color: $verdebanfield;
     }
 }
 
 @media (max-width: 991px) {
 .contenedor-galeria{
-    background-color: darkgreen;
+    background-color: $verdebanfield;
     .galeria{
         img{
             max-height: 60vh;

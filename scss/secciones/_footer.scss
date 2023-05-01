@@ -3,7 +3,7 @@
     align-content: center;
     display: grid;
     padding-top: 5px;
-    background-image: linear-gradient(to bottom, white, darkgreen);
+    background-image: linear-gradient(to bottom, $bbanfield, $verdebanfield);
 
 
 
@@ -16,14 +16,13 @@
 
             list-style: none;
             border-radius: 5px;
-            color: darkgreen;
+            color: $verdebanfield;
             display: inline-block;
             text-align: center;
             width: 45px;
             height: 45px;
 
             a {
-                color: black;
                 justify-content: center;
                 text-decoration: none;
             }
@@ -42,5 +41,5 @@
 @media (max-width: 991px) {
 
 .pie{
-    background-image: linear-gradient(to bottom, darkgreen, white);}
+    background-image: linear-gradient(to bottom, $verdebanfield, $bbanfield);}
 }

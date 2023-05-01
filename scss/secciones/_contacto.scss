@@ -3,12 +3,12 @@
 
         padding: 20px;
         margin: 20px;
-        border: solid 5px goldenrod;
-        background-color: white;
+        border: solid 5px $dorado;
+        background-color: $bbanfield;
 
 
         h1 {
-            color: darkgreen;
+            color: $verdebanfield;
             font-family: $titulo;
             padding: 10px;
             margin: 10px;
@@ -40,10 +40,10 @@
 
         .enviar {
             border-radius: 5px;
-            background-color: #4CAF50;
+            background-color: $verdecito;
             /* verde */
             border: none;
-            color: white;
+            color: $bbanfield;
             padding: 10px 24px;
             text-align: center;
             text-decoration: none;
@@ -53,7 +53,7 @@
             cursor: pointer;
 
             &:hover {
-                background-color: #FFA500;
+                background-color: $dorado;
             }
         }
 
@@ -62,7 +62,7 @@
 
 @media (max-width: 991px) {
     .contenedor-contacto {
-        background-color: darkgreen;
+        background-color: $verdebanfield;
         .contacto {
                     .formulario{
                         display: flex;

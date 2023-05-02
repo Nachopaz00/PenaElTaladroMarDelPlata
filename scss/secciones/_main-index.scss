@@ -113,11 +113,10 @@
 
 @media (max-width: 420px) {
     .principal {
-        max-width: 50vw;
         .nota {
             p {
                 margin: auto;
-                font-size: 13px;
+                font-size: 18px;
             }
 
             h2 {
@@ -126,8 +125,8 @@
                 font-size: 30px;
             }
 
-            img{
-                width: 50vw;
+            img {
+             width: 80vw;
             }
 
         }

@@ -1,4 +1,4 @@
-.principal {
+.main-index {
     background-color: $bbanfield;
     border: solid 5px $dorado;
     text-align: center;
@@ -21,7 +21,7 @@
         width: 90%;
     }
 
-    .nota {
+    .main-index__nota {
         margin: 5px;
         padding: 5px;
         border: solid 2px $verdebanfield;
@@ -45,7 +45,7 @@
 
 @media (max-width: 991px) {
 
-    .principal {
+    .main-index {
        
         border-radius: 2px;
 
@@ -58,7 +58,7 @@
 
        
 
-        .nota {
+        .main-index__nota {
             border: $bbanfield solid 2px;
             border-radius: 2px;
 
@@ -86,8 +86,8 @@
 }
 
 @media (max-width: 768px) {
-    .principal {
-        .nota p {
+    .main-index {
+        .main-index__nota p {
             margin: 4px;
             font-size: 15px;
         }
@@ -99,8 +99,8 @@
 }
 
 @media (max-width: 420px) {
-    .principal {
-        .nota {
+    .main-index {
+        .main-index__nota {
             p {
                 margin: auto;
                 font-size: 18px;

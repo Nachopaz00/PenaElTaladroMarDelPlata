@@ -1,4 +1,4 @@
-.encabezado {
+.header {
     .navbar {
         ul {
             li {
@@ -89,7 +89,7 @@
 
 @media (max-width: 991px) {
 
-    .encabezado {
+    .header {
         nav {
                 background-image: linear-gradient(to bottom, $bbanfield, $verdebanfield) !important;
                 overflow: hidden;
@@ -104,7 +104,7 @@
 
 @media (max-width: 768px) {
 
-    .encabezado {
+    .header {
         nav {
             ul {
                 display: flow-root;

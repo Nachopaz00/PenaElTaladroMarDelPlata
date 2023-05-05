@@ -1,5 +1,5 @@
 .contenedor-contacto {
-    .contacto {
+    .main-contacto {
 
         padding: 20px;
         margin: 20px;
@@ -58,7 +58,7 @@
 @media (max-width: 991px) {
     .contenedor-contacto {
         background-color: $verdebanfield;
-        .contacto {
+        .main-contacto {
                     .formulario{
                         display: flex;
                         flex-direction: column;

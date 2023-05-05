@@ -1,4 +1,4 @@
-.ladoa {
+.aside {
     padding: 20px;
     margin: 20px;
     border: solid 5px $dorado;
@@ -9,7 +9,7 @@
         width: 35px;
     }
 
-    .resultado {
+    .aside__resultado {
         margin: 5px;
         padding: 5px;
 
@@ -46,7 +46,7 @@
 
     }
 
-    .posiciones {
+    .aside__posiciones {
 
         margin: 5px;
         padding: 5px;
@@ -102,7 +102,7 @@
 
     }
 
-    .media {
+    .aside__media {
         display: flex;
         margin: 5px;
         padding: 5px;
@@ -113,7 +113,7 @@
 
 @media (max-width: 420px) {
 
-    .ladoa {
+    .aside {
       display: none;
     }
 }

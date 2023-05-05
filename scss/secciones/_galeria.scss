@@ -1,4 +1,4 @@
-.galeria {
+.main-galeria {
     padding: 20px;
     margin: 20px;
     border: solid 5px $dorado;
@@ -42,7 +42,7 @@
 @media (max-width: 991px) {
 .contenedor-galeria{
     background-color: $verdebanfield;
-    .galeria{
+    .main-galeria{
         img{
             max-height: 60vh;
         }

@@ -1,4 +1,4 @@
-.pie {
+.footer {
     height: 100px;
     align-content: center;
     display: grid;
@@ -40,6 +40,6 @@
 
 @media (max-width: 991px) {
 
-.pie{
+.footer{
     background-image: linear-gradient(to bottom, $verdebanfield, $bbanfield);}
 }

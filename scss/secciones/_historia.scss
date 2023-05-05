@@ -14,7 +14,7 @@
         }
 
         p {
-            @include texto-propiedades ($verdebanfield, $parrafo, 15p, justify, 20px, 10px);
+            @include texto-propiedades ($verdebanfield, $parrafo, 15px, justify, 20px, 10px);
             width: 90%;
         }
     }

@@ -12,22 +12,16 @@
     }
 
     h1 {
-        color: $verdebanfield;
-        font-family: $titulo;
-        padding: 10px;
-        margin: 10px;
-        font-size: 60px;
+        @include texto-propiedades ($verdebanfield, $titulo, 60px, center, 10px, 10px);
         text-decoration: underline;
-        text-align: center;
+
 
     }
 
 
     h3 {
-        font-family: $titulo;
-        margin: 10px;
-        padding: 10px;
-        text-align: justify;
+        @include texto-propiedades (black, $titulo, 30px, justify, 10px, 10px);
+
 
     }
 

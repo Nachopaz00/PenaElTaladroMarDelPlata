@@ -1,0 +1,8 @@
+@mixin texto-propiedades ($color, $tipografia, $tamanio, $align, $marg, $padd){
+    color: $color;
+    font-family: $tipografia;
+    font-size: $tamanio;
+    text-align: $align;
+    margin: $marg;
+    padding: $padd;
+}

@@ -1,9 +1,9 @@
 .principal {
     background-color: $bbanfield;
-    padding: 20px;
-    margin: 20px;
     border: solid 5px $dorado;
     text-align: center;
+    padding: 20px;
+    margin: 20px;
 
 
     img {
@@ -12,22 +12,13 @@
     }
 
     h1 {
-        color: $verdebanfield;
-        font-family: $titulo;
-        padding: 10px;
-        margin: 10px;
-        font-size: 60px;
+        @include texto-propiedades ($verdebanfield, $titulo, 60px, center, 10px, 10px);  
         text-decoration: underline;
-        text-align: center;
     }
 
     p {
-        color: $verdebanfield;
-        font-family: $parrafo;
+        @include texto-propiedades ($verdebanfield, $parrafo, 15px, justify, 40px, 10px);
         width: 90%;
-        font-size: 15px;
-        margin: 40px;
-        text-align: justify;
     }
 
     .nota {
@@ -43,12 +34,8 @@
         }
 
         p {
-            color: $verdebanfield;
-            font-family: $parrafo;
+            @include texto-propiedades ($verdebanfield, $parrafo, 15px, justify, 40px, 10px);
             width: 90%;
-            font-size: 15px;
-            margin: 40px;
-            text-align: justify;
         }
     }
 

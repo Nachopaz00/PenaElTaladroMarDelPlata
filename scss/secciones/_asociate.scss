@@ -17,23 +17,15 @@
         }
 
         h1 {
-            color: $verdebanfield;
-            font-family: $titulo;
-            padding: 10px;
-            margin: 10px;
-            font-size: 60px;
+            @include texto-propiedades ($verdebanfield, $titulo, 60px, center, 10px, 10px);
             text-decoration: underline;
-            text-align: center;
         }
 
 
 
         p {
-            font-family: $parrafo;
-            margin: 20px;
-            padding: 20px;
+            @include texto-propiedades (black, $parrafo, 15px, justify, 20px, 20px);
             margin-left: -10px;
-            text-align: justify;
         }
 
         .btn {

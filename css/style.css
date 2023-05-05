@@ -197,7 +197,9 @@
 
 @media (max-width: 991px) {
   .footer {
-    background-image: linear-gradient(to bottom, #006400, #FEFEFE); } }
+    background-image: linear-gradient(to bottom, #006400, #FEFEFE); }
+    .footer ul {
+      padding-left: 0; } }
 
 .main-index {
   background-color: #FEFEFE;

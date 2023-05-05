@@ -47,5 +47,8 @@
 
     .footer {
         background-image: linear-gradient(to bottom, $verdebanfield, $bbanfield);
+        ul{
+            padding-left: 0;
+        }
     }
 }

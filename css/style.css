@@ -209,7 +209,7 @@
   margin: 20px;
   grid-area: principal; }
   .main-index img {
-    border: solid 3px #FFC300;
+    border-radius: 5px;
     width: 650px; }
   .main-index h1 {
     color: #006400;
@@ -320,9 +320,7 @@
   background-color: #FEFEFE;
   text-align: center; }
   .main-galeria img {
-    border: #FFC300 solid 2px;
-    max-width: 90vw;
-    max-height: 90vh; }
+    border: #FFC300 solid 2px; }
   .main-galeria h1 {
     color: #006400;
     font-family: "Oswald", sans-serif;
